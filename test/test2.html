@@ -1,160 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edu Station - Direção Workstation</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="/css/index.css">
+
     <style>
+        /* Estilizando o botão de usuário */
+        .user-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
 
-
-/* Estilos da header */
-
-.cabeca{
-    padding: 2%;
-    text-align: center;
-    border: 3px solid #0a0a0a;
-}
-.cabeca p{
-    text-align: left;
-    margin: 0;
-}
-
-.between{
-    box-sizing: border-box;
-    padding: 45px;
-}
-h1 {
-    margin-top: 0;
-    font-size: 2em;
-}
-
-h2 {
-    margin-bottom: 0;
-    font-size: 1.5em;
-}
-
-/* Estilos da seção de pesquisa */
-.pesquisa {
-    margin: 10px auto;
-    width: 80%;
-    max-width: 500px;
-}
-
-.pesquisa form {
-    display: flex;
-    align-items: center;
-}
-
-.pesquisa label {
-    margin-right: 10px;
-}
-
-.pesquisa input {
-    flex: 1;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.pesquisa button {
-    margin-left: 10px;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-
-}
-
-/* Estilos da lista de disciplinas */
-.lista-disciplinas {
-    margin: 10px auto;
-    width: 80%;
-    max-width: 800px;
-}
-
-.lista-disciplinas table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.lista-disciplinas th, td {
-    padding: 5px;
-    text-align: left;
-    border: 1px solid #ccc;
-}
-
-
-.lista-disciplinas a {
-    margin-right: 5px;
-    text-align: center;
-}
+        .user-button img {
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
-
     <div class="cabeca">
         <p>Edu Station </p>
         <h4>Direcao Workstation</h4>
-    </div>
 
+    </div>
     <div class="between">
-        <p>
-            
-        </p>
+        <p></p>
     </div>
 
+    <!-- Criando um container para 4 botões -->
+    <div class="button-container">
 
-    <main>
-        <section class="pesquisa">
-            <form action="#">
-                <label for="disciplina">Disciplina:</label>
-                <input type="text" id="disciplina" name="disciplina" placeholder="">
-                <button type="submit">Pesquisar</button>
+        <div class="button1">
+            <form action="/html/principal/diracao.html" class="dict">
+    
+                <input type="submit" value=" Direção" class="btn1" />
+        
             </form>
-        </section>
-        <section class="lista-disciplinas">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome da disciplina</th>
-                        <th>Data de criação</th>
-                        <th>Opções</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>História</td>
-                        <td>12/12/1982</td>
-                        <td>
-                            <a href="#">Alterar</a>
-                            <a href="#">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Geografia</td>
-                        <td>12/12/1982</td>
-                        <td>
-                            <a href="#">Alterar</a>
-                            <a href="#">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Inglês</td>
-                        <td>12/12/1982</td>
-                        <td>
-                            <a href="#">Alterar</a>
-                            <a href="#">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Português</td>
-                        <td>12/12/1982</td>
-                        <td>
-                            <a href="#">Alterar</a>
-                            <a href="#">Excluir</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
+        </div>
+
+        <div class="button2">
+            <form action="/html/principal/docente.html" class="doc">
+                <input type="submit" value=" Docente" class="btn2" />
+            </form>
+        </div>
+
+        <div class="button3">
+            <form action="/html/principal/aluno.html" class="aln">
+                <input type="submit" value=" Aluno" class="btn3" />
+            </form>
+        </div>
+
+        <div class="button4">
+            <form action="/html/principal/disciplina.html" class="disc">
+                <input type="submit" value=" Disciplina" class="btn4" />
+
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Botão 5, isolado -->
+    <div class="button5">
+        <form action="/" class="turm">
+            <input type="submit" value=" turma" class="btn5" />
+        </form>
+    </div>
+
+    <!-- Botão de usuário -->
+    <div class="user-button">
+        <a href="#">
+            <!--<img src="/img/userimg.svg" alt="">-->
+        </a>
+    </div>
 </body>
 </html>

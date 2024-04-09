@@ -18,15 +18,28 @@
     padding: 45px;
 }
 
-.user {
-    border-radius: 100%;
-    
-    border: 3px solid #0a0a0a;
-
-    align-self: end;
-    display: inline-block;
+  /* Estilizando o botão de usuário */
+  .user-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
     cursor: pointer;
 }
+
+.user-button img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+
 
 .dict input[type="submit"],
 .doc input[type="submit"],
