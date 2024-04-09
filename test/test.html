@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cabeca {
+            padding: 2%;
+            text-align: center;
+            border: 3px solid #0a0a0a;
+        }
+
+        .cabeca p {
+            text-align: left;
+            margin: 0;
+        }
+
+        .between {
+            box-sizing: border-box;
+            padding: 45px;
+        }
+
+        .user {
+            border-radius: 100%;
+            
+            border: 3px solid #0a0a0a;
+        
+            align-self: end;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .dict input[type="submit"],
+        .doc input[type="submit"],
+        .aln input[type="submit"],
+        .disc input[type="submit"] {
+
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: none;
+            padding: 25px 38px;
+            cursor: pointer;
+            border-radius: 3px;
+            border: 3px solid #0a0a0a;
+            margin-right: 20px; /* Adicione margem direita */
+        }
+
+        .button-container {
+            display: flex;
+            margin-left: 30%;
+            align-self: center;
+        
+        }
+        .button5 {
+            margin: 20px; /* Espaço entre o último botão e o quinto botão */
+            align-self: center;
+            margin-left: 46%;
+        
+      
+        }
+
+        .turm input[type="submit"] {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: none;
+            padding: 25px 38px;
+            cursor: pointer;
+            border-radius: 3px;
+            border: 3px solid #0a0a0a;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabeca">
+        <p>Edu Station </p>
+        <h4>Direcao Workstation</h4>
+
+        <i class='user' style='font-size:36px'></i>
+        <i style='font-size:24px' class='user'>&#xf2bd;</i>
+
+    </div>
+    <div class="between">
+        <p></p>
+    </div>
+
+    <!-- Criando um container para 4 botões -->
+    <div class="button-container">
+
+        <div class="button1">
+            <form action="POST" class="dict">
+                <input type="submit" value=" Direção" class="btn1" />
+            </form>
+        </div>
+
+        <div class="button2">
+            <form action="POST" class="doc">
+                <input type="submit" value=" Docente" class="btn2" />
+            </form>
+        </div>
+
+        <div class="button3">
+            <form action="POST" class="aln">
+                <input type="submit" value=" Aluno" class="btn3" />
+            </form>
+        </div>
+
+        <div class="button4">
+            <form action="POST" class="disc">
+                <input type="submit" value=" Disciplina" class="btn4" />
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Botão 5,isolado-->
+    <div class="button5">
+        <form action="POST" class="turm">
+            <input type="submit" value=" turma" class="btn5" />
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+
+.cabeca{
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #0a0a0a;
+}
+.cabeca p{
+    text-align: left;
+    margin: 0;
+}
+
+.between{
+    box-sizing: border-box;
+    padding: 45px;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+/* Estilos da seção de pesquisa */
+.pesquisa {
+    margin: 10px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.pesquisa form {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa label {
+    margin-right: 10px;
+}
+
+.pesquisa input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pesquisa button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+
+}
+
+/* Estilos da lista de disciplinas */
+.lista {
+    margin: 10px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.lista table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lista th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+
+.lista a {
+    margin-right: 5px;
+    text-align: center;
+}

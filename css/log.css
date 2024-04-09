@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.cabeca{
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #0a0a0a;
+}
+.cabeca p{
+    text-align: left;
+    margin: 0;
+}
+
+.between{
+    box-sizing: border-box;
+    padding: 45px;
+}
+.page {
+    height: auto;
+    position: relative;
+}
+
+.page p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50;
+}
+ 
+ /* Estilo básico para o formulário */
+ .formLogin {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+/* Estilo para os campos de entrada */
+.formLogin label {
+    display: block ;
+    margin-bottom: 2px;
+}
+
+.formLogin input[type="email"],
+.formLogin input[type="password"] {
+    
+    width: 50%;
+    margin-left: 30%;
+    padding: 2px;
+    margin-bottom: 2%;
+    border: 1px solid #ccc;
+    border: 3px solid #0a0a0a;
+}
+
+/* Estilo para o botão de envio */
+.formLogin input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 3px solid #0a0a0a;
+}
+
+/* Estilo para os links */
+.formLogin a {
+    display: block;
+    text-align: end;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}

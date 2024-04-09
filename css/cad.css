@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.cabeca {
+    padding: 2%;
+    text-align: center;
+    border: 3px solid #0a0a0a;
+}
+
+.cabeca p {
+    text-align: left;
+    margin: 0;
+}
+
+.between {
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.user {
+    border-radius: 100%;
+    
+    border: 3px solid #0a0a0a;
+
+    align-self: end;
+    display: inline-block;
+    cursor: pointer;
+}
+
+ /* Estilo básico para o formulário */
+ .formLogin {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 3px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+/* Estilo para os campos de entrada */
+.formLogin label {
+    display: block ;
+    margin-bottom: 2px;
+}
