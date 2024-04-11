@@ -1,67 +1,47 @@
-
-.cabeca{
+.cabeca {
     padding: 2%;
     text-align: center;
     border: 3px solid #0a0a0a;
 }
-.cabeca p{
+.cabeca p {
     text-align: left;
     margin: 0;
 }
 
-.between{
+.between {
     box-sizing: border-box;
     padding: 45px;
 }
-h1 {
-    margin-top: 0;
-    font-size: 2em;
-}
 
-h2 {
-    margin-bottom: 0;
-    font-size: 1.5em;
-}
-
-
-  /* Estilizando o botão de usuário */
-  .user-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-}
-
-.user-button img {
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
-}
-
-.button_mais_container {
+.form-turma  {
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px; /* Ajuste conforme necessário para distância do elemento acima */
+    flex-direction: column;
 }
 
-
- /* Estilo básico para o formulário */
- .vinc_disc {
-    max-width: 300px;
-    margin: 0 auto;
+.form-turma .buttons, .form-criar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.button{
-    margin-top: 10%;
-    display: block;
+.vincular-docentes {
+    margin-right: auto; /* Ajuste para alinhar à esquerda */
+    margin-left: 0; /* Removido o deslocamento à esquerda */
 }
 
+.vincular-alunos {
+    margin-left: auto; /* Ajuste para alinhar à direita */
+}
 
+/* Centralizando o botão criar */
+.form-criar {
+    max-width: 100%;
+}
+
+.botao-criar {
+    width: fit-content;
+    margin: 0 auto; /* Centraliza o botão */
+}

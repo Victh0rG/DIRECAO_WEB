@@ -1,54 +1,46 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/html/user/disc_&_turm/css/user_turm.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-    <div class="cabeca">
-        <p>Edu Station </p>
-        <h4>Direcao Workstation</h4>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/html/user/disc_&_turm/css/user_turm.css">
+</head>
+<body>
+<div class="cabeca">
+    <p>Edu Station </p>
+    <h4>Direcao Workstation</h4>
+</div>
+<div class="between">
+    <h2>
+        <a href="">Disciplina</a>
+    </h2>    
+</div>
 
-    </div>
-    <div class="between">
-        <h2>
-            <a href="">Disciplina</a>
-        </h2>    
-    </div>
+<form action="/html/principal/turma.html" class="form-turma">
+    <label for="disciplina">Digite o nome da turma</label>
+    <input type="text" id="disciplina">
 
-    <form action="/html/principal/turma.html">
-        <label for="TURM">Digite o nome da turma</label>
-        <input type="text" id="disciplina">
-        
-        <label for="data_ano">Digite o ano</label>
-        <input type="text" name="" id="dataid">
+    <label for="ano">Digite o ano</label>
+    <input type="text" id="ano">
 
-        <label for="data_turm">Data de ciração</label>
-        <input type="date" name="" id="">
-        
-        <input type="submit" value="Vincular Docentes">
-    </form>    
-    <form action="">
-        <input type="submit" value="Vincular Alunos">    </form>            
+    <label for="dataCriacao">Data de criação</label>
+    <input type="date" id="dataCriacao">
     
-    </form>
-    
+    <div class="buttons">
+        <input type="submit" value="Vincular Docentes" class="vincular-docentes">
+        <input type="submit" value="Vincular Alunos" class="vincular-alunos">
+    </div>
+
     <form action="/html/principal/turma.html">
         <input type="submit" value="criar">
-    
     </form>
-        <script src="" async defer></script>
-    </body>
+</form>
+
+
+<script src="" async defer></script>
+</body>
 </html>
+
