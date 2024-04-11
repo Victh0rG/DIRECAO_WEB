@@ -64,11 +64,11 @@ h2 {
 
 
  /* Estilo básico para o formulário */
- .formLogin {
+ .vinc_disc {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
-    border: 3px solid #0a0a0a;
+
     border-radius: 5px;
 }
 
