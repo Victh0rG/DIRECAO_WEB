@@ -52,28 +52,15 @@ h2 {
     margin-top: 20px; /* Ajuste conforme necessário para distância do elemento acima */
 }
 
-.button_mais {
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    padding: 0%;
-
-}
-
 
  /* Estilo básico para o formulário */
  .vinc_disc {
     max-width: 300px;
     margin: 0 auto;
-    padding: 20px;
-
-    border-radius: 5px;
 }
 
-/* Estilo para os campos de entrada */
-.formLogin label {
-    display: block ;
-    margin-bottom: 2px;
+.button{
+    margin-top: 10%;
+    display: block;
 }
+
