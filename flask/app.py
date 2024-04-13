@@ -4,14 +4,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('login.html')  # Certifique-se de que o arquivo HTML está em uma pasta chamada 'templates'
+    return render_template('login.html')  # 'templates'
 
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['username']
     password = request.form['password']
     
-    # Aqui você implementaria a lógica para verificar as credenciais
+    # credenciais
     if username == "admin@example.com" and password == "secret":
         return redirect(url_for('success'))
     else:
