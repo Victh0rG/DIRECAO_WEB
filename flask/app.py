@@ -2,10 +2,12 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+# rota principal
 @app.route('/')
 def index():
     return render_template('login.html')  # 'templates'
 
+#rota para login
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['username']
